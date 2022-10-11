@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Sedgwick Ave', cursive;
+    background-image: url('trent.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0,3);
+    position: sticky;
+    top: 0px;
+    background: black;
+}
+
+nav{
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+nav h1,
+nav ul{
+    font-size: 1,5rem;
+    flex: 1;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#logo{
+    height: auto;
+    width: 40px;
+}
+
+
+
+
+
+.grid {
+    width: 600px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    background: linear-gradient(to right top, #6b443b, #6b443b);
+    padding: 10px 50px 50px 50px;
+    border: 2px solid black;
+}
+
+.grid h1 {
+    font-family: 'Sedgwick Ave', cursive;
+    background: linear-gradient(to right top, #6b443b, #6b443b);
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+}
+
+#score {
+    font-family: 'Sedgwick Ave', cursive;
+    background: linear-gradient(to right top, #6b443b, #6b443b);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.grid #question {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#myhr {
+    position: relative;
+    bottom: 180px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background: linear-gradient(to right top, #6b443b, #6b443b);
+    width: 250px;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    font-family: 'Sedgwick Ave', cursive;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    bottom: 165px;
+}
+
+#trentgif {
+    height: 220px;
+    width: 220px;
+    position: relative;
+    bottom: 225px;
+    left: 300px;
+}
